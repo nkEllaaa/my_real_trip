@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap');
-
+a{
+  text-decoration: none;
+}
 article{
   width: 250px;
+  border-radius: 4px;
 }
 article:hover{
-  box-shadow: 1px 1px 3px black;
+  box-shadow: 0px 0px 5px 1px rgb(215, 215, 215);
+  transition: 0.3s;
+  transform: translate(0px,-2px);
 }
 article .first-card-img-nk{
   width: 100%;
@@ -20,6 +25,7 @@ article .text-box-nk{
   padding: 10px 16px 16px;
   background-color: #fff;
   border: 1px solid #d1d4d7;
+  border-top: none;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   box-sizing: border-box;
