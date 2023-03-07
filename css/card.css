@@ -7,7 +7,7 @@ article{
   border-radius: 4px;
 }
 article:hover{
-  box-shadow: 0px 0px 5px 1px rgb(215, 215, 215);
+  box-shadow: 0px 0px 10px 2px rgb(215, 215, 215);
   transition: 0.3s;
   transform: translate(0px,-2px);
 }
