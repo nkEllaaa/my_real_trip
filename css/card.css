@@ -1,22 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap');
+.best-product-nk{
+  position: relative;
+  margin: 0 auto;
+}
+.swipe-wrap{
+  display: flex;
+}
+/* .best-product-nk .swipe-wrap{
+  width: 1352px;
+  transform: translate3d(0px, 0px, 0px);
+} */
 a{
   text-decoration: none;
 }
 article{
   width: 250px;
   border-radius: 4px;
+  margin-left: 20px;
+  box-sizing: border-box;
 }
 article:hover{
   box-shadow: 0px 0px 10px 2px rgb(215, 215, 215);
   transition: 0.3s;
   transform: translate(0px,-2px);
 }
-article .first-card-img-nk{
+article .card-img-nk{
   width: 100%;
   height: 166px;
   vertical-align: bottom;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+}
+/* article .btn-favorite-nk{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 20px;
+  right: 20px;
+  background-color: none;
+} */
+article .favorite-nk{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  right: 10px;
+  background-color: none;
+  z-index: 1;
 }
 article .text-box-nk{
   position: relative;
@@ -52,14 +82,14 @@ article .text-box-nk .footer-nk p{
   color: #848c94;
 }
 article .text-box-nk .footer-nk .price-nk{
-  top: 72%;
+  top: 80%;
   left: 7%;
   font-size: 13px;
   font-weight: 700;
 }
 article .text-box-nk .footer-nk .headcount-nk{
   font-size: 12px;
-  top: 73%;
+  top: 80%;
   left: 28%;
 }
 article .text-box-nk .add-info p{
@@ -68,13 +98,33 @@ article .text-box-nk .add-info p{
 } 
 article .text-box-nk .add-info .add-info-text-nk{
   position: absolute;
-  top: 73%;
+  top: 80%;
   right: 5%;
   font-size: 12px;
   color: #848c94;
 }
 article .text-box-nk .add-info .add-info-img{
 position: absolute;
-top: 81%;
+top: 78%;
 right: 23%;
+}
+.btn-arrow-nk{
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgb(210, 210, 210);
+  border: 1px solid lightgray;
+  height: 40px;
+  position: absolute;
+  top: 48%;
+  right: 11.5%;
+  /* transform: translateY(-50%); */
+  /* transition: .2s; */
+  width: 40px;
+  z-index: 1;
+  cursor: pointer;
+}
+.btn-arrow-nk:hover{
+  box-shadow: 0px 3px 5px 2px rgb(191, 189, 189);
+  transition: 0.3s;
+  /* transform: translate(0px,-2px); */
 }
