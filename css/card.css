@@ -2,8 +2,24 @@
 .best-product-nk{
   position: relative;
   margin: 0 auto;
+  /* overflow: hidden; */
 }
-.swipe-wrap{
+.swipe-wrap-nk{
+  background-color: rgb(236, 234, 220);
+  width: 200vw;
+  position: absolute;
+  /* left: 0;
+  top: 0; */
+  /* transition: left 0.5s ease-out;  */
+  display: flex;
+  overflow: hidden;
+}
+.visible-box-nk{
+  width: 100vw;
+  display: flex;
+  /* transform: translateX(-100vw) */
+}
+.display-none-nk{
   display: flex;
 }
 /* .best-product-nk .swipe-wrap{
@@ -115,16 +131,18 @@ right: 23%;
   border: 1px solid lightgray;
   height: 40px;
   position: absolute;
+  text-align: center;
   top: 48%;
-  right: 11.5%;
+  left: 42.5%;
   /* transform: translateY(-50%); */
   /* transition: .2s; */
   width: 40px;
-  z-index: 1;
+  z-index: 10;
   cursor: pointer;
 }
 .btn-arrow-nk:hover{
   box-shadow: 0px 3px 5px 2px rgb(191, 189, 189);
   transition: 0.3s;
+  
   /* transform: translate(0px,-2px); */
 }
