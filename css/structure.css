@@ -1,54 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap');
-html{
-  font-size: 10px;
-}
-.best-product-nk{
-  position: relative;
-  margin: 0 auto;
-  height: 400px;
-}
-/* h2{
-  color: #343a40;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 0;
-} */
-.swipe-wrap-nk{
+.all{
+  width: 100%;
+  height: 363px;
   background-color: red;
-  width: 2160px;
-  display: flex;
-  transition: all 0.7s;
-  gap: 20px;
-  /* margin-top: 20px; */
-  
 }
-/* .wrap{
-  display: flex;
-  gap: 20px;
+.div-for-h2{
+  width: 100%;
+  height: 27px;
+  background-color: orange;
+}
+.h2-title{
+  width: 1080px;
+  height: 27px;
+  margin:0 auto;
+  background-color: rgb(141, 255, 247);
+}
+.h2-title h2{
+  font-size: 26px;
+  line-height: 27px;
+}
+.div-for-article{
   background-color: yellow;
+  width: 100%;
+  height: 321px;
+}
+.outer-visible-4-article-area{
+  width: 1080px;
+  height: 321px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: slateblue;
   position: relative;
+}
+button{
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgb(210, 210, 210);
+  border: 1px solid lightgray;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0px 3px 5px 2px rgb(191, 189, 189);
+  transition: 0.3s;
+}
+.btn-prev{
+  top: 45%;
+  left: -2%;
   z-index: 1;
-} */
-.visible-box-nk{
-  display: flex;
-  gap: 20px;
-  background-color: yellow;
-  position: relative;
+}
+.btn-next{
+  top: 45%;
+  right: -2%;
+  z-index: 1;
+}
+.visible-4-area{
+  width: 1080px;
+  height: 321px;
+  background-color: green;
+  z-index: 1;
   overflow: hidden;
-  margin;
+  margin-left: auto;
+  margin-right: auto;
 }
-.invisible-box-nk{
+.all-8-area{
+  width: 2160px;
+  height: 321px;
+  background-color: blue;
   display: flex;
+  margin-left: 10px;
   gap: 20px;
 }
-/* .invisible-box-nk:first-child{
-  margin-left: 20px;
-} */
+
+/* 여기부터 개별 article 영역 여기부터 개별 article 영역*/
+/* 여기부터 개별 article 영역 여기부터 개별 article 영역*/
+
 a{
   text-decoration: none;
 }
-article{
+.all-8-area article{
   width: 250px;
+  height: 311px;
+  background-color: royalblue;
+  margin: auto 0;
   border-radius: 4px;
 }
 article:hover{
@@ -62,23 +97,6 @@ article .card-img-nk{
   vertical-align: bottom;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-}
-/* article .btn-favorite-nk{
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 20px;
-  right: 20px;
-  background-color: none;
-} */
-article .favorite-nk{
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 10px;
-  right: 10px;
-  background-color: none;
-  z-index: 1;
 }
 article .text-box-nk{
   position: relative;
@@ -139,36 +157,4 @@ article .text-box-nk .add-info .add-info-img{
 position: absolute;
 top: 78%;
 right: 23%;
-}
-.btn-arrow-nk{
-  background-color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgb(210, 210, 210);
-  border: 1px solid lightgray;
-  height: 40px;
-  position: absolute;
-  top: 48%;
-  right: -2%;
-  width: 40px;
-  z-index: 10;
-  cursor: pointer;
-}
-.btn-arrow-nk:hover{
-  box-shadow: 0px 3px 5px 2px rgb(191, 189, 189);
-  transition: 0.3s;
-}
-.btn-left-arrow-nk{
-  background-color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgb(210, 210, 210);
-  border: 1px solid lightgray;
-  height: 40px;
-  position: absolute;
-  width: 40px;
-  z-index: 10;
-  cursor: pointer;
-}
-.brn-left-arrow-nk:hover{
-  box-shadow: 0px 3px 5px 2px rgb(191, 189, 189);
-  transition: 0.3s;
 }
