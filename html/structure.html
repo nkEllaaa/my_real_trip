@@ -5,10 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>structure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/structure.css">
 </head>
 <body>
+  <!-- 섹션 당 카테고리 전체 한 줄입니다. -->
+  <div class="for-interval"></div>
   <section class="all">
     <div class="div-for-h2">
       <div class="h2-title"><h2>실시간 베스트 상품</h2></div>
@@ -20,14 +25,11 @@
         <div class="visible-4-area">
           <div class="all-8-area">
             <!-- 여기부터 개별 article 영역 -->
-            <!-- 여기부터 개별 article 영역 -->
             <!-- 첫 번째 -->
             <article class="article-nk" onclick="move()">
               <a href="#">
-                <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
-                <!-- <button class="btn-favorite-nk">
-                  <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
-                </button> -->
+                <img class="favorite-nk" src="../images/favorite.svg" alt="favorite">
+                <img class="card-img-nk" src="../images/first_card.jpg" alt="article img">
                 <div class="text-box-nk">
                   <p class="type-region-nk">가이드 투어 · 서울 </p>
                   <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트1</h3>
@@ -45,15 +47,15 @@
             <!-- 두 번째 -->
             <article class="article-nk" onclick="move()">
               <a href="#">
-                <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                <img class="card-img-nk" src="../images/kids_marathon.jpeg" alt="article img">
                 <!-- <button class="btn-favorite-nk">
                   <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
                 </button> -->
                 <div class="text-box-nk">
-                  <p class="type-region-nk">가이드 투어 · 서울 </p>
-                  <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트2</h3>
+                  <p class="type-region-nk">가이드 투어 · 안성 </p>
+                  <h3 class="title-nk">Beautiful Rainbow! 패밀리 컬러 마라톤</h3>
                   <div class="footer-nk">
-                    <p class="price-nk">6,500원</p>
+                    <p class="price-nk">200,000원</p>
                     <p class="headcount-nk">/ 1인</p>
                   </div>
                   <div class="add-info">  
@@ -194,6 +196,443 @@
       </div>
     </div>
   </section>
+  <!-- 두 번째 섹션 -->
+  <div class="for-interval"></div>
+  <section class="all">
+    <div class="div-for-h2">
+      <div class="h2-title"><h2>전국 핫플 최저가</h2></div>
+    </div>
+    <div class="div-for-article">
+      <div class="outer-visible-4-article-area">
+        <button class="btn-prev"><img src="../images/left_arrow.svg" alt="prev"></button>
+        <button class="btn-next"><img src="../images/arrow.svg" alt="next"></button>
+        <div class="visible-4-area">
+          <div class="all-8-area">
+            <!-- 여기부터 개별 article 영역 -->
+            <!-- 첫 번째 -->
+            <article class="article-nk" onclick="move()">
+              <a href="#">
+                <img class="favorite-nk" src="../images/favorite.svg" alt="favorite">
+                <img class="card-img-nk" src="../images/first_card.jpg" alt="article img">
+                <div class="text-box-nk">
+                  <p class="type-region-nk">가이드 투어 · 서울 </p>
+                  <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트1</h3>
+                  <div class="footer-nk">
+                    <p class="price-nk">6,500원</p>
+                    <p class="headcount-nk">/ 1인</p>
+                  </div>
+                  <div class="add-info">  
+                    <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                    <p class="add-info-text-nk">즉시확정</p>  
+                  </div>
+                </div>
+              </a>  
+            </article> 
+            <!-- 두 번째 -->
+            <article class="article-nk" onclick="move()">
+              <a href="#">
+                <img class="card-img-nk" src="../images/kids_marathon.jpeg" alt="article img">
+                <!-- <button class="btn-favorite-nk">
+                  <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                </button> -->
+                <div class="text-box-nk">
+                  <p class="type-region-nk">가이드 투어 · 안성 </p>
+                  <h3 class="title-nk">Beautiful Rainbow! 패밀리 컬러 마라톤</h3>
+                  <div class="footer-nk">
+                    <p class="price-nk">200,000원</p>
+                    <p class="headcount-nk">/ 1인</p>
+                  </div>
+                  <div class="add-info">  
+                    <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                    <p class="add-info-text-nk">즉시확정</p>  
+                  </div>
+                </div>
+              </a>  
+            </article>
+            <!-- 세 번째 -->
+            <article class="article-nk" onclick="move()">
+              <a href="#">
+                <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                <!-- <button class="btn-favorite-nk">
+                  <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                </button> -->
+                <div class="text-box-nk">
+                  <p class="type-region-nk">가이드 투어 · 서울 </p>
+                  <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트3</h3>
+                  <div class="footer-nk">
+                    <p class="price-nk">6,500원</p>
+                    <p class="headcount-nk">/ 1인</p>
+                  </div>
+                  <div class="add-info">  
+                    <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                    <p class="add-info-text-nk">즉시확정</p>  
+                  </div>
+                </div>
+              </a>  
+            </article>
+            <!-- 네 번째 -->
+            <article class="article-nk" onclick="move()">
+              <a href="#">
+                <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                <!-- <button class="btn-favorite-nk">
+                  <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                </button> -->
+                <div class="text-box-nk">
+                  <p class="type-region-nk">가이드 투어 · 서울 </p>
+                  <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트4</h3>
+                  <div class="footer-nk">
+                    <p class="price-nk">6,500원</p>
+                    <p class="headcount-nk">/ 1인</p>
+                  </div>
+                  <div class="add-info">  
+                    <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                    <p class="add-info-text-nk">즉시확정</p>  
+                  </div>
+                </div>
+              </a>  
+            </article>
+            <!--  다섯번째-->
+              <article class="article-nk" onclick="move()">
+                <a href="#">
+                  <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                  <!-- <button class="btn-favorite-nk">
+                    <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                  </button> -->
+                  <div class="text-box-nk">
+                    <p class="type-region-nk">가이드 투어 · 서울 </p>
+                    <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트5</h3>
+                    <div class="footer-nk">
+                      <p class="price-nk">6,500원</p>
+                      <p class="headcount-nk">/ 1인</p>
+                    </div>
+                    <div class="add-info">  
+                      <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                      <p class="add-info-text-nk">즉시확정</p>  
+                    </div>
+                  </div>
+                </a>  
+              </article>
+              <!-- 여섯 번째 -->
+              <article class="article-nk" onclick="move()">
+                <a href="#">
+                  <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                  <!-- <button class="btn-favorite-nk">
+                    <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                  </button> -->
+                  <div class="text-box-nk">
+                    <p class="type-region-nk">가이드 투어 · 서울 </p>
+                    <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트6</h3>
+                    <div class="footer-nk">
+                      <p class="price-nk">6,500원</p>
+                      <p class="headcount-nk">/ 1인</p>
+                    </div>
+                    <div class="add-info">  
+                      <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                      <p class="add-info-text-nk">즉시확정</p>  
+                    </div>
+                  </div>
+                </a>  
+              </article>
+              <!-- 일곱 번째 -->
+              <article class="article-nk" onclick="move()">
+                <a href="#">
+                  <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                  <!-- <button class="btn-favorite-nk">
+                    <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                  </button> -->
+                  <div class="text-box-nk">
+                    <p class="type-region-nk">가이드 투어 · 서울 </p>
+                    <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트7</h3>
+                    <div class="footer-nk">
+                      <p class="price-nk">6,500원</p>
+                      <p class="headcount-nk">/ 1인</p>
+                    </div>
+                    <div class="add-info">  
+                      <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                      <p class="add-info-text-nk">즉시확정</p>  
+                    </div>
+                  </div>
+                </a>  
+              </article>
+              <!-- 여덟 번째 -->
+              <article class="article-nk" onclick="move()">
+                <a href="#">
+                  <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                  <!-- <button class="btn-favorite-nk">
+                    <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                  </button> -->
+                  <div class="text-box-nk">
+                    <p class="type-region-nk">가이드 투어 · 서울 </p>
+                    <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트8</h3>
+                    <div class="footer-nk">
+                      <p class="price-nk">6,500원</p>
+                      <p class="headcount-nk">/ 1인</p>
+                    </div>
+                    <div class="add-info">  
+                      <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                      <p class="add-info-text-nk">즉시확정</p>  
+                    </div>
+                  </div>
+                </a>  
+              </article> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 세 번째 섹션 -->
+  <div class="for-interval"></div>
+  <section class="all">
+    <div class="div-for-h2">
+      <div class="h2-title"><h2>제주도 입장권 베스트 셀러</h2></div>
+    </div>
+    <div class="div-for-article">
+      <div class="outer-visible-4-article-area">
+        <button class="btn-prev"><img src="../images/left_arrow.svg" alt="prev"></button>
+        <button class="btn-next"><img src="../images/arrow.svg" alt="next"></button>
+        <div class="visible-4-area">
+          <div class="all-8-area">
+            <!-- 여기부터 개별 article 영역 -->
+            <!-- 첫 번째 -->
+            <article class="article-nk" onclick="move()">
+              <a href="#">
+                <img class="favorite-nk" src="../images/favorite.svg" alt="favorite">
+                <img class="card-img-nk" src="../images/first_card.jpg" alt="article img">
+                <div class="text-box-nk">
+                  <p class="type-region-nk">가이드 투어 · 서울 </p>
+                  <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트1</h3>
+                  <div class="footer-nk">
+                    <p class="price-nk">6,500원</p>
+                    <p class="headcount-nk">/ 1인</p>
+                  </div>
+                  <div class="add-info">  
+                    <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                    <p class="add-info-text-nk">즉시확정</p>  
+                  </div>
+                </div>
+              </a>  
+            </article>  
+            <!-- 두 번째 -->
+            <article class="article-nk" onclick="move()">
+              <a href="#">
+                <img class="card-img-nk" src="../images/kids_marathon.jpeg" alt="article img">
+                <!-- <button class="btn-favorite-nk">
+                  <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                </button> -->
+                <div class="text-box-nk">
+                  <p class="type-region-nk">가이드 투어 · 안성 </p>
+                  <h3 class="title-nk">Beautiful Rainbow! 패밀리 컬러 마라톤</h3>
+                  <div class="footer-nk">
+                    <p class="price-nk">200,000원</p>
+                    <p class="headcount-nk">/ 1인</p>
+                  </div>
+                  <div class="add-info">  
+                    <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                    <p class="add-info-text-nk">즉시확정</p>  
+                  </div>
+                </div>
+              </a>  
+            </article>
+            <!-- 세 번째 -->
+            <article class="article-nk" onclick="move()">
+              <a href="#">
+                <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                <!-- <button class="btn-favorite-nk">
+                  <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                </button> -->
+                <div class="text-box-nk">
+                  <p class="type-region-nk">가이드 투어 · 서울 </p>
+                  <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트3</h3>
+                  <div class="footer-nk">
+                    <p class="price-nk">6,500원</p>
+                    <p class="headcount-nk">/ 1인</p>
+                  </div>
+                  <div class="add-info">  
+                    <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                    <p class="add-info-text-nk">즉시확정</p>  
+                  </div>
+                </div>
+              </a>  
+            </article>
+            <!-- 네 번째 -->
+            <article class="article-nk" onclick="move()">
+              <a href="#">
+                <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                <!-- <button class="btn-favorite-nk">
+                  <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                </button> -->
+                <div class="text-box-nk">
+                  <p class="type-region-nk">가이드 투어 · 서울 </p>
+                  <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트4</h3>
+                  <div class="footer-nk">
+                    <p class="price-nk">6,500원</p>
+                    <p class="headcount-nk">/ 1인</p>
+                  </div>
+                  <div class="add-info">  
+                    <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                    <p class="add-info-text-nk">즉시확정</p>  
+                  </div>
+                </div>
+              </a>  
+            </article>
+            <!--  다섯번째-->
+              <article class="article-nk" onclick="move()">
+                <a href="#">
+                  <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                  <!-- <button class="btn-favorite-nk">
+                    <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                  </button> -->
+                  <div class="text-box-nk">
+                    <p class="type-region-nk">가이드 투어 · 서울 </p>
+                    <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트5</h3>
+                    <div class="footer-nk">
+                      <p class="price-nk">6,500원</p>
+                      <p class="headcount-nk">/ 1인</p>
+                    </div>
+                    <div class="add-info">  
+                      <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                      <p class="add-info-text-nk">즉시확정</p>  
+                    </div>
+                  </div>
+                </a>  
+              </article>
+              <!-- 여섯 번째 -->
+              <article class="article-nk" onclick="move()">
+                <a href="#">
+                  <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                  <!-- <button class="btn-favorite-nk">
+                    <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                  </button> -->
+                  <div class="text-box-nk">
+                    <p class="type-region-nk">가이드 투어 · 서울 </p>
+                    <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트6</h3>
+                    <div class="footer-nk">
+                      <p class="price-nk">6,500원</p>
+                      <p class="headcount-nk">/ 1인</p>
+                    </div>
+                    <div class="add-info">  
+                      <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                      <p class="add-info-text-nk">즉시확정</p>  
+                    </div>
+                  </div>
+                </a>  
+              </article>
+              <!-- 일곱 번째 -->
+              <article class="article-nk" onclick="move()">
+                <a href="#">
+                  <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                  <!-- <button class="btn-favorite-nk">
+                    <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                  </button> -->
+                  <div class="text-box-nk">
+                    <p class="type-region-nk">가이드 투어 · 서울 </p>
+                    <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트7</h3>
+                    <div class="footer-nk">
+                      <p class="price-nk">6,500원</p>
+                      <p class="headcount-nk">/ 1인</p>
+                    </div>
+                    <div class="add-info">  
+                      <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                      <p class="add-info-text-nk">즉시확정</p>  
+                    </div>
+                  </div>
+                </a>  
+              </article>
+              <!-- 여덟 번째 -->
+              <article class="article-nk" onclick="move()">
+                <a href="#">
+                  <img class="card-img-nk" src="../images/first_card.jpg" alt="david hockey&british pop art">
+                  <!-- <button class="btn-favorite-nk">
+                    <img class="favorite-nk" src="../images/favorite.svg" alt="favorite" role="button">
+                  </button> -->
+                  <div class="text-box-nk">
+                    <p class="type-region-nk">가이드 투어 · 서울 </p>
+                    <h3 class="title-nk">[서울/중구] 전시 데이비드 호크니&브리티시 팝아트8</h3>
+                    <div class="footer-nk">
+                      <p class="price-nk">6,500원</p>
+                      <p class="headcount-nk">/ 1인</p>
+                    </div>
+                    <div class="add-info">  
+                      <img class="add-info-img" src="../images/bolt.svg" alt=""></img>
+                      <p class="add-info-text-nk">즉시확정</p>  
+                    </div>
+                  </div>
+                </a>  
+              </article> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="for-interval"></div>
+    <div class="h2-title"><h2>마이리얼트립의 여행 정보</h2></div>
+    <div class="sns-box">
+      <div class="sns1">
+        <div class="sns-title-wrap">
+          <img class="sns-img" src="../images/facebook.svg" alt="facebook">
+          <a href="#">마이리얼트립 페이스북 페이지 ></a>
+        </div>  
+        <p class="sns-text-box">마이리얼트립 페이스북 페이지에서 각 여행지별로 정리된 유용한 정보와 여행자분들을 위한 이벤트를 확인해보세요.</p>
+      </div>
+      <div class="sns2">
+        <div class="sns-title-wrap">
+          <img class="sns-img" src="../images/insta.svg" alt="instagram">
+          <a href="#">마이리얼트립 인스타그램 ></a>
+        </div>  
+        <p class="sns-text-box">세계 곳곳에서 활동중인 마이리얼트립의 가이드님과 여행자분들이 보내주신 아름다운 사진을 감상해보세요.</p>
+      </div>  
+      <div class="sns3">
+        <div class="sns-title-wrap">
+          <img class="sns-img" src="../images/naver.svg" alt="naver">
+          <a href="#">마이리얼트립 네이버 블로그 ></a>
+        </div>
+        <p class="sns-text-box">마이리얼트립의 네이버 블로그에서 리얼생생 여행정보, 여행 후기, 추천 가이드 정보를 확인해보세요.</p>
+      </div>    
+    </div>
+  </section>
+  <footer>
+    <div class="inner">
+      <div class="inner-top">
+        <div class="top-textbox1">
+          <p>고객지원실 운영안내</p>
+          <ul>
+            <li>연중 무휴 09:00~18:00 (점심시간 12:00~13:00)</li>
+            <li>주말/공휴일 포함, 한국시간 기준</li>
+            <li>*항공권 환불/변경은 평일 09:00~17:00 접수 가능</li>
+            <li>유선상담 1670-8208</li>
+          </ul>
+          <button type="button">1:1 채팅상담</button>
+        </div>
+        <div class="top-textbox2">
+          <div class="textbox2-menu">
+            <p>소개</p>
+            <ul>
+              <li>회사소개</li>
+              <li>채용</li>
+              <li>공고</li>
+            </ul>
+          </div>
+          <div class="textbox2-menu"> 
+            <p>파트너</p>
+            <ul>
+              <li>파트너 신청하기</li>
+              <li>Affiliate 프로그램</li>
+              <li>리얼파트너</li>
+              <li>파트너 블로그</li>
+            </ul>
+          </div>
+          <div class="textbox2-menu"> 
+            <p>지원</p>
+            <ul>
+              <li>공지사항/FAQ</li>
+              <li>최저가 보장제</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="../js/structure.js"></script>
 </body>
 </html>

@@ -13,7 +13,7 @@ nextBtn.addEventListener('click', ()=> {
   if(counter >= carouselImages.length -1) return;
   carouselSlide.style.transition = "transform 0.4s ease-in-out";
   counter = counter + 4;
-  carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+  carouselSlide.style.transform = 'translateX(' + (-size * counter-80) + 'px)';
 });
 
 prevBtn.addEventListener('click', ()=> {
@@ -36,3 +36,6 @@ carouselSlide.addEventListener('transitionend', () => {
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
   }
 });
+function toggleImg() {
+  document.getElementById("img").src = "../images/red_favorite.svg";
+}
